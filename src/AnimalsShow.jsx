@@ -26,10 +26,12 @@ function AnimalsShow({type}){
         setClicks(clicks + 1)
     }
 
+    console.log(type)
+
     return(
         <div
             onClick={handleClick} 
-            className="animals-show"
+            className="animal-show"
         >
             <img 
                 src={svgMap[type]} 
